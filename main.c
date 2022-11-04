@@ -1,5 +1,9 @@
 #iclude<stdio.h>
 void main()
 {
-printf("hamada1");
+	func();
+}
+void func(void)
+{
+	printf("func");
 }
